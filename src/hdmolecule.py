@@ -96,6 +96,12 @@ class HDMolecule:
 
 
 def analyze_N2(distance):
+    """Print out an energy analysis an N2 molecule with a
+    bond given bond length in Å.
+
+    Args:
+       distance (float): The distance between the two Nitrogen atoms in Å.
+    """
 
     N2 = HDMolecule("N", distance)
 
